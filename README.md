@@ -4,13 +4,13 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Sensor de Ph
 
-## Nome do Grupo
+## PH4M
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="https://www.linkedin.com/in/deivid-gomes09/">Deivid Gomes</a>, <a href="https://www.linkedin.com/in/rodrigo-cruz-b3885116a/">Rodrigo Cruz</a>, <a href="https://www.linkedin.com/in/eduardo-sturm-599a45223">Eduardo Sturm </a>, <a href="https://www.linkedin.com/in/victorbarq/">Gustavo Enzo Vieira Alvesi</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/"> Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Valente</a>
 
 ## Descrição
 
@@ -20,11 +20,9 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+. O principal objetivo é desenvolver e implementar um sistema capaz de controlar e manter os níveis ideais de pH e temperatura na água do aquário.
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
+Meu projeto ajuda a monitorar o aquário enviando notificações das variações para as pessoas que o possuem.
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -44,19 +42,6 @@ May the force be with you!
   &emsp;|-->Frontend<br>
 |readme.md<br>
 
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
 
 ## 🛠 Instalação
 
@@ -101,18 +86,17 @@ Coloque código do prompt de comnando se for necessário
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
+* 0.2.1 - 13/05/2024
+    * MUDANÇA: Erro no sensor de PH, por isso utilizaremos o de temperatura junto um display e um passo a passo de como seria caso o sensor de ph estivesse funcionando.
+* 0.2.0 - 10/05/2024
+    * Testes finais com o medidor de PH, junto com a esp e o sensor de temperatura.
+* 0.1.1 - 10/01/2022
+    * 
 * 0.1.0 - 10/01/2022
     * O primeiro lançamento adequado
     * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 0.0.1 - 15/03/2024
+    * Iniciação do projeto.
 
 ## 📋 Licença/License
 
